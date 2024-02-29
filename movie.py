@@ -1,6 +1,5 @@
 age = int(input("Enter your age: "))
 is_student = input("Are you a student? (yes/no): ")
-
 # Determine discount eligibility
 is_eligible = (age <= 12) or ((13 <= age <= 18) and (is_student.lower() == "yes"))
 
